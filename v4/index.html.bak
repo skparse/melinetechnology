@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meline Technology Solution Pvt Ltd | Cloud-Era Engineering Design & Detailing</title>
+  <meta name="description" content="Meline Technology Solution Pvt Ltd (Thane, Maharashtra) — mechanical, structural, electrical & instrumentation design, 3D modeling and piping detailing for oil & gas, petrochemical and process industries.">
+  <meta name="author" content="Meline Technology Solution Pvt Ltd">
+  <meta property="og:title" content="Meline Technology Solution Pvt Ltd">
+  <meta property="og:description" content="Engineering design & detailing for the oil & gas and process industries.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#home" class="skip">Skip to content</a>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announce">
+    <span class="announce-dot"></span>
+    Trusted by USA-based oil &amp; gas and process clients since 2014
+    <a href="#contact">Start a project &rarr;</a>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="30" height="30" fill="none">
+            <path d="M20 3 34 11v18L20 37 6 29V11Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+            <path d="M6 11l14 8 14-8M20 19v18" stroke="currentColor" stroke-width="2.4"/>
+            <circle cx="20" cy="19" r="3.4" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="logo-word">Meline<b>Technology</b></span>
+      </a>
+
+      <nav class="links" id="links">
+        <a href="#platform">Platform</a>
+        <a href="#why">Why Meline</a>
+        <a href="#industries">Industries</a>
+        <a href="#work">Work</a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
+        <a href="#contact" class="btn btn-primary">Request a Quote</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="links"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="pill-tag reveal">Engineering Design &amp; Detailing</span>
+        <h1 class="reveal">Precision engineering<br>for the <span class="grad">oil &amp; gas</span> era</h1>
+        <p class="hero-sub reveal">
+          Mechanical, structural, electrical &amp; instrumentation design, 3D modeling and
+          piping detailing &mdash; delivered accurately, cost-effectively and on time by a
+          team that works as an extension of yours.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#contact" class="btn btn-primary btn-lg">Request a Consultation</a>
+          <a href="#work" class="btn btn-outline btn-lg">See our work &rarr;</a>
+        </div>
+        <div class="hero-trust reveal">
+          <div><b data-count="2014">2014</b><span>Established</span></div>
+          <div><b><span data-count="10">10</span>+</b><span>Years</span></div>
+          <div><b><span data-count="5">5</span></b><span>Disciplines</span></div>
+          <div><b>100%</b><span>Client-focused</span></div>
+        </div>
+      </div>
+
+      <div class="hero-media reveal">
+        <div class="media-card">
+          <div class="media-bar"><i></i><i></i><i></i><span>meline · 3D piping model</span></div>
+          <img src="assets/gallery-3d-piping.jpg" alt="3D piping model with color-coded process lines, valves and instrumentation" width="1100" height="825">
+        </div>
+        <div class="float-chip chip-1">ISO drawings</div>
+        <div class="float-chip chip-2">BOM &amp; detailing</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOGO / DISCIPLINE STRIP ===== -->
+  <div class="strip">
+    <div class="wrap strip-inner">
+      <span>MECHANICAL</span><span>STRUCTURAL</span><span>PIPING</span><span>ELECTRICAL &amp; INSTRUMENTATION</span><span>SITE SERVICES</span>
+    </div>
+  </div>
+
+  <!-- ===== PLATFORM / SERVICES ===== -->
+  <section class="section" id="platform">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="eyebrow">The platform</span>
+        <h2>Everything your project needs, from one team</h2>
+        <p class="head-sub">Concept to commissioning &mdash; a single, coordinated engineering partner across every discipline.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feat reveal">
+          <div class="feat-ic"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4 42 14v20L24 44 6 34V14Z" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/><path d="M6 14l18 10 18-10M24 24v20" stroke="currentColor" stroke-width="2.5" fill="none"/></svg></div>
+          <h3>3D Modeling &amp; Structures</h3>
+          <p>Accurate 3D models of skids, platforms, structures and vessels, built for manufacturability.</p>
+        </article>
+        <article class="feat reveal">
+          <div class="feat-ic"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 12h14v10H6zM28 12h14v10H28zM17 22v10M35 22v10M10 32h30" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Piping Design &amp; Detailing</h3>
+          <p>Process piping design, isometric drawings and manufacturing bills of material.</p>
+        </article>
+        <article class="feat reveal">
+          <div class="feat-ic"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="8" width="32" height="32" rx="3" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="M8 20h32M20 8v32" stroke="currentColor" stroke-width="2.5"/></svg></div>
+          <h3>Mechanical &amp; Structural</h3>
+          <p>Cost-effective structural and mechanical engineering, validated for real-world loads.</p>
+        </article>
+        <article class="feat reveal">
+          <div class="feat-ic"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="M24 4v8M24 36v8M4 24h8M36 24h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+          <h3>Electrical &amp; Instrumentation</h3>
+          <p>Design, supply, testing and commissioning of power &amp; control systems.</p>
+        </article>
+        <article class="feat reveal">
+          <div class="feat-ic"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 40V16l12-8 12 8v24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/><path d="M18 40V26h12v14" stroke="currentColor" stroke-width="2.5" fill="none"/></svg></div>
+          <h3>Site Services &amp; As-Built</h3>
+          <p>On-site dimensioning to produce precise 3D models and fabrication drawings.</p>
+        </article>
+        <article class="feat reveal">
+          <div class="feat-ic"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="M24 16v8l6 4" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg></div>
+          <h3>Testing &amp; Commissioning</h3>
+          <p>Supervision of installation, pre-commissioning, SAT and O&amp;M support.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY / SPLIT FEATURE ===== -->
+  <section class="section tint" id="why">
+    <div class="wrap split">
+      <div class="split-media reveal">
+        <img src="assets/gallery-manufacturing-drawing.jpg" alt="Structural steel manufacturing drawing with plan, elevation and bill of materials" width="1100" height="825">
+      </div>
+      <div class="split-copy reveal">
+        <span class="eyebrow">Why Meline</span>
+        <h2>Deliverables you can build from &mdash; the first time</h2>
+        <ul class="why-list">
+          <li><span class="tick" aria-hidden="true">&#10003;</span><div><b>Accuracy that saves rework</b><p>Precise isometrics and BOMs that match site conditions and cut fabrication rework.</p></div></li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span><div><b>One coordinated team</b><p>Mechanical, structural, electrical and instrumentation under a single point of contact.</p></div></li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span><div><b>Cost-effective, on time</b><p>The right blend of tools and methods, balanced for cost, application and schedule.</p></div></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Talk to our team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INDUSTRIES ===== -->
+  <section class="section" id="industries">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="eyebrow">Industries</span>
+        <h2>Built for demanding process industries</h2>
+      </div>
+      <div class="chips reveal">
+        <span>Oil &amp; Gas</span><span>Petrochemical</span><span>Process Plants</span>
+        <span>Chemical</span><span>Refineries</span><span>Skid Packages</span>
+        <span>Pressure Vessels</span><span>Structural Platforms</span><span>Textile Plant</span>
+        <span>Dairy &amp; Sugar</span><span>Power &amp; Utilities</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CADENCE (dark) ===== -->
+  <section class="section dark">
+    <div class="wrap cadence">
+      <div class="head reveal">
+        <span class="eyebrow light">How we work</span>
+        <h2>A clear path from brief to build</h2>
+      </div>
+      <ol class="steps">
+        <li class="reveal"><span class="step-no">01</span><h3>Scope &amp; survey</h3><p>We study your requirement &mdash; or visit site to capture exact as-built dimensions.</p></li>
+        <li class="reveal"><span class="step-no">02</span><h3>Model &amp; design</h3><p>3D models, stress analysis and design validity checks using industry-standard CAD.</p></li>
+        <li class="reveal"><span class="step-no">03</span><h3>Detail &amp; document</h3><p>Fabrication drawings, isometrics and complete bills of material.</p></li>
+        <li class="reveal"><span class="step-no">04</span><h3>Support &amp; commission</h3><p>Installation supervision, testing, SAT and ongoing O&amp;M support.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== WORK / GALLERY ===== -->
+  <section class="section tint" id="work">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="eyebrow">Selected work</span>
+        <h2>Drawings &amp; models we&rsquo;ve delivered</h2>
+        <p class="head-sub">Click any drawing to view it full size.</p>
+      </div>
+      <div class="gal" id="gal">
+        <figure class="gcard reveal" tabindex="0" role="button" aria-label="View: 3D Piping Model">
+          <img src="assets/gallery-3d-piping.jpg" alt="3D piping model with color-coded process lines and valves" loading="lazy" width="1100" height="825">
+          <figcaption>3D Piping Model</figcaption>
+        </figure>
+        <figure class="gcard reveal" tabindex="0" role="button" aria-label="View: Piping Isometric and BOM">
+          <img src="assets/gallery-isometric-piping.jpg" alt="Isometric piping drawing with manufacturing bill of material" loading="lazy" width="1100" height="825">
+          <figcaption>Piping Isometric &amp; BOM</figcaption>
+        </figure>
+        <figure class="gcard reveal" tabindex="0" role="button" aria-label="View: Structural Fabrication Drawing">
+          <img src="assets/gallery-manufacturing-drawing.jpg" alt="Structural steel manufacturing drawing with plan, elevation and BOM" loading="lazy" width="1100" height="825">
+          <figcaption>Structural Fabrication Drawing</figcaption>
+        </figure>
+        <figure class="gcard reveal" tabindex="0" role="button" aria-label="View: Skid With Piping">
+          <img src="assets/gallery-skid-piping-1.jpg" alt="Fabricated skid with painted piping, valves and instrumentation" loading="lazy" width="1100" height="825">
+          <figcaption>Skid With Piping</figcaption>
+        </figure>
+        <figure class="gcard reveal" tabindex="0" role="button" aria-label="View: 3D Product Modeling">
+          <img src="assets/gallery-3d-product-modeling.jpg" alt="3D product model of a valve and a full process plant assembly" loading="lazy" width="1100" height="825">
+          <figcaption>3D Product Modeling</figcaption>
+        </figure>
+        <figure class="gcard reveal" tabindex="0" role="button" aria-label="View: Machined Parts Detail">
+          <img src="assets/gallery-machined-parts.jpg" alt="Sectional drawing of a machined cylindrical valve assembly" loading="lazy" width="1100" height="825">
+          <figcaption>Machined Parts Detail</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="eyebrow">Client stories</span>
+        <h2>Teams that build with us</h2>
+      </div>
+      <div class="quotes">
+        <blockquote class="reveal">
+          <p>&ldquo;Meline&rsquo;s piping isometrics and BOMs were remarkably accurate &mdash; it saved our fabrication team weeks of rework on a tight turnaround.&rdquo;</p>
+          <footer><span class="av">PM</span><div><b>Project Manager</b><small>Oil &amp; Gas EPC Contractor, USA</small></div></footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <p>&ldquo;Their 3D structural models and fabrication drawings matched site conditions perfectly. Communication was clear at every revision.&rdquo;</p>
+          <footer><span class="av">DE</span><div><b>Design Engineer</b><small>Petrochemical Equipment Manufacturer</small></div></footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <p>&ldquo;Reliable, responsive and detail-oriented. Meline has become a dependable extension of our engineering team.&rdquo;</p>
+          <footer><span class="av">HE</span><div><b>Head of Engineering</b><small>Process Industry Client</small></div></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA / CONTACT ===== -->
+  <section class="section contact-sec" id="contact">
+    <div class="wrap contact-card reveal">
+      <div class="contact-copy">
+        <h2>Let&rsquo;s start your project</h2>
+        <p>Send your scope and we&rsquo;ll respond with an approach and estimate. Submitting opens your own email client, pre-filled.</p>
+        <ul class="contact-facts">
+          <li><span>Email</span><a href="mailto:info@melinetech.com">info@melinetech.com</a></li>
+          <li><span>Phone</span>+91-XXXXX-XXXXX</li>
+          <li><span>Address</span>Shahs Avenue, 317, Gopal Krishna Gokhale Marg, Shivaji Path, Naupada, Thane West, Thane, Maharashtra 400602</li>
+          <li><span>Hours</span>Mon&ndash;Sat, 09:30&ndash;18:30 IST</li>
+        </ul>
+      </div>
+
+      <form class="form" id="form" novalidate>
+        <div class="row">
+          <div class="fg">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Priya Sharma" required minlength="2">
+            <span class="fe">Enter your name.</span>
+          </div>
+          <div class="fg">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required>
+            <span class="fe">Enter a valid email.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="fg">
+            <label for="phone">Phone <small>(optional)</small></label>
+            <input type="tel" id="phone" name="phone" placeholder="+91…">
+          </div>
+          <div class="fg">
+            <label for="service">Scope</label>
+            <select id="service" name="service">
+              <option value="">Select a discipline</option>
+              <option>3D Modeling &amp; Structures</option>
+              <option>Piping Design &amp; Detailing</option>
+              <option>Mechanical &amp; Structural Design</option>
+              <option>Electrical &amp; Instrumentation</option>
+              <option>Site Services &amp; As-Built Surveys</option>
+              <option>Installation &amp; Commissioning</option>
+            </select>
+          </div>
+        </div>
+        <div class="fg">
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" rows="4" placeholder="Describe the scope, timeline and deliverables…" required minlength="10"></textarea>
+          <span class="fe">Give us at least a sentence.</span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block"><span class="bt">Send Message</span></button>
+        <p class="fnote" id="fnote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="wrap foot-grid">
+      <div class="foot-brand">
+        <a href="#home" class="logo logo-foot">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" width="28" height="28" fill="none">
+              <path d="M20 3 34 11v18L20 37 6 29V11Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+              <path d="M6 11l14 8 14-8M20 19v18" stroke="currentColor" stroke-width="2.4"/>
+              <circle cx="20" cy="19" r="3.4" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="logo-word">Meline<b>Technology</b></span>
+        </a>
+        <p>Cloud-era engineering design &amp; detailing for the oil &amp; gas and process industries. Make in India.</p>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="X">X</a>
+        </div>
+      </div>
+      <div class="foot-col"><h4>Platform</h4><a href="#platform">3D Modeling</a><a href="#platform">Piping Detailing</a><a href="#platform">Electrical &amp; I</a><a href="#platform">Site Services</a></div>
+      <div class="foot-col"><h4>Company</h4><a href="#why">Why Meline</a><a href="#industries">Industries</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
+      <div class="foot-col"><h4>Contact</h4><a href="mailto:info@melinetech.com">info@melinetech.com</a><span>+91-XXXXX-XXXXX</span><span>Naupada, Thane West, MH 400602</span></div>
+    </div>
+    <div class="wrap foot-base">
+      <span>&copy; <span id="yr"></span> Meline Technology Solution Pvt Ltd</span>
+      <span>All rights reserved · Make in India</span>
+    </div>
+  </footer>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lb" id="lb" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Drawing preview">
+    <div class="lb-bg" id="lbBg"></div>
+    <button class="lb-x" id="lbX" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+    <figure class="lb-fig"><img src="" alt="" id="lbImg"><figcaption id="lbCap"></figcaption></figure>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">&#8250;</button>
+  </div>
+
+  <button class="totop" id="toTop" aria-label="Back to top">&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
