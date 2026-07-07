@@ -242,21 +242,45 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      /* Simulate successful submission (no backend wired up) */
+      /* GitHub Pages serves static files only — there is no server here to
+         receive this form. Instead, hand off to the visitor's own email
+         app with everything pre-filled, addressed to us. */
       const submitBtn = form.querySelector('button[type="submit"]');
       const btnText = submitBtn.querySelector('.btn-text');
       const originalText = btnText.textContent;
 
+      const name = form.elements.name.value.trim();
+      const email = form.elements.email.value.trim();
+      const phone = form.elements.phone ? form.elements.phone.value.trim() : '';
+      const serviceEl = form.elements.service;
+      const service = serviceEl && serviceEl.selectedIndex > 0 ? serviceEl.options[serviceEl.selectedIndex].text : '';
+      const message = form.elements.message.value.trim();
+
+      const destination = 'info@melinetech.com';
+      const subject = `Website enquiry from ${name}${service ? ' — ' + service : ''}`;
+      const bodyLines = [
+        `Name: ${name}`,
+        `Email: ${email}`,
+        phone ? `Phone: ${phone}` : null,
+        service ? `Service Required: ${service}` : null,
+        '',
+        'Project Details:',
+        message
+      ].filter(Boolean);
+
+      const mailtoUrl = `mailto:${destination}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
+
       submitBtn.disabled = true;
-      btnText.textContent = 'Sending...';
+      btnText.textContent = 'Opening email...';
+
+      window.location.href = mailtoUrl;
 
       setTimeout(() => {
-        status.textContent = 'Thank you! Your message has been received — our team will contact you shortly.';
+        status.textContent = 'Your email app should now be open with your message pre-filled — just hit send.';
         status.className = 'form-status success';
-        form.reset();
         submitBtn.disabled = false;
         btnText.textContent = originalText;
-      }, 900);
+      }, 600);
     });
   }
 
